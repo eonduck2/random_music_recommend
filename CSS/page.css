@@ -1,0 +1,99 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.class_for_cursor {
+  cursor: pointer;
+}
+
+#main_wrapper {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* * #second_wrapper */
+#main_wrapper:nth-child(1) {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+/* * #div_for_img */
+#div_for_img {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  width: 500px;
+  height: 800px;
+  border: 3px solid black;
+  border-radius: 7px;
+  justify-content: center;
+  box-shadow: 3px 3px 4px 5px rgb(216, 216, 216);
+}
+
+.contents_img {
+  margin-top: 40px;
+  width: 400px;
+  height: 400px;
+  border-radius: 7px;
+}
+
+#for_contents_caption {
+  display: grid;
+  align-items: center;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-column-gap: 200px; */
+  width: 400px;
+  height: 100px;
+}
+
+#music_playBack {
+  width: 100px;
+}
+
+#music_play {
+  width: 100px;
+}
+
+#sound_wave {
+  width: 100px;
+}
+
+#for_contents_caption2 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 100px;
+}
+
+#singer_for_caption {
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#song_for_caption {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#for_contents_caption3 {
+  width: 400px;
+  height: 100px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#for_contents_caption3 > p {
+  margin: 0 auto;
+  font-size: 17px;
+  font-weight: bold;
+}
